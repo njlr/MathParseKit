@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Express 2012 for Windows Desktop
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathParseKit", "MathParseKit\MathParseKit_VS2017.vcxproj", "{3D5EBDBB-C3E2-4E6D-B008-659781ACD0C8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CmdCalculator", "Examples\CmdCalculator\CmdCalculator.vcxproj", "{996B1DF7-7AF6-4180-8705-47219783C348}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,8 +23,19 @@ Global
 		{3D5EBDBB-C3E2-4E6D-B008-659781ACD0C8}.Release|Win32.Build.0 = Release|Win32
 		{3D5EBDBB-C3E2-4E6D-B008-659781ACD0C8}.Release|x64.ActiveCfg = Release|x64
 		{3D5EBDBB-C3E2-4E6D-B008-659781ACD0C8}.Release|x64.Build.0 = Release|x64
+		{996B1DF7-7AF6-4180-8705-47219783C348}.Debug|Win32.ActiveCfg = Debug|Win32
+		{996B1DF7-7AF6-4180-8705-47219783C348}.Debug|Win32.Build.0 = Debug|Win32
+		{996B1DF7-7AF6-4180-8705-47219783C348}.Debug|x64.ActiveCfg = Debug|x64
+		{996B1DF7-7AF6-4180-8705-47219783C348}.Debug|x64.Build.0 = Debug|x64
+		{996B1DF7-7AF6-4180-8705-47219783C348}.Release|Win32.ActiveCfg = Release|Win32
+		{996B1DF7-7AF6-4180-8705-47219783C348}.Release|Win32.Build.0 = Release|Win32
+		{996B1DF7-7AF6-4180-8705-47219783C348}.Release|x64.ActiveCfg = Release|x64
+		{996B1DF7-7AF6-4180-8705-47219783C348}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DEC548EB-03D2-423E-8937-C410A38A8FDE}
 	EndGlobalSection
 EndGlobal

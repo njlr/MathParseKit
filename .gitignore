@@ -11,3 +11,11 @@
 *.lai
 *.la
 *.a
+
+bazel-*
+.vs
+WORKSPACE
+BUILD.bazel
+bin/
+Debug/
+Backup/
